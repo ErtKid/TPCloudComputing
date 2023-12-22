@@ -4,7 +4,7 @@ This GitHub project encapsulates a series of Azure cloud implementations
 
 ## Docs project
 
-### [1 - Create a Virtual Machine](docs/1-CreateaVirtualMachine.md)
+### [1-Create a Virtual Machine](docs/1-CreateAVirtualMachine.md)
 
 ### [2-SetUpBlobStorage](docs/2-SetUpBlobStorage.md)
 
