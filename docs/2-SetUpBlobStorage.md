@@ -2,7 +2,8 @@
 
 # Set Up Blob Storage
 
-![Alt text](image-2.png)
+![Alt text](image-17.png)
+![Alt text](image-16.png)
 
 ## Export template
 
@@ -127,6 +128,23 @@
                 "cors": {
                     "corsRules": []
                 }
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2023-01-01",
+            "name": "[concat(parameters('storageAccounts_csb100320022d826afc_name'), '/default/$web')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccounts_csb100320022d826afc_name'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_csb100320022d826afc_name'))]"
+            ],
+            "properties": {
+                "immutableStorageWithVersioning": {
+                    "enabled": false
+                },
+                "defaultEncryptionScope": "$account-encryption-key",
+                "denyEncryptionScopeOverride": false,
+                "publicAccess": "None"
             }
         },
         {
