@@ -1,5 +1,7 @@
 # TPCloudComputing
 
+This GitHub project encapsulates a series of Azure cloud implementations
+
 ## Docs project
 
 ### [1 - Create a Virtual Machine](docs/1-CreateaVirtualMachine.md)
