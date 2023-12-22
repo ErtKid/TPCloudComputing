@@ -1,4 +1,4 @@
-[Back to Home](https://github.com/ErtKid/TPCloudComputing/blob/main/README.md)
+[Back to Home](../README.md)
 
 # Create a Virtual Machine (VM)
 
@@ -21,9 +21,9 @@ I assigned a public IP address and a DNS name to enable remote access and connec
 ![Alt text](image.png)
 ![Alt text](image-1.png)
 
-Template
+## Export template
 
-'''json
+'''
 {
 "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
 "contentVersion": "1.0.0.0",
@@ -129,3 +129,4 @@ Template
 }
 ]
 }
+'''
