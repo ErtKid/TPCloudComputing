@@ -2,6 +2,8 @@
 
 # Implement a simple Azure Functions
 
+This segment showcases the implementation of "HelloWord" Azure Functions
+
 ![Alt text](image-7.png)
 
 ## Export template

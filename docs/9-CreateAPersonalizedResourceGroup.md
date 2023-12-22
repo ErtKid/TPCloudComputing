@@ -2,6 +2,8 @@
 
 # Create a personalized Resource Group
 
+In this part, I've delved into organizing and managing Azure resources effectively by creating a Personalized Resource Group.
+
 ![Alt text](image-11.png)
 ![Alt text](image-12.png)
 

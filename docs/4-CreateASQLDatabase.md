@@ -2,6 +2,8 @@
 
 # Create a SQL Database
 
+This part show a SQL database in Azure
+
 ![Alt text](image-6.png)
 
 ## Export template

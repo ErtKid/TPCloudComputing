@@ -2,6 +2,8 @@
 
 # Set Up a Networking ressource
 
+In this section, I established a Virtual Network in Azure
+
 ![Alt text](image-8.png)
 
 ## Export template
