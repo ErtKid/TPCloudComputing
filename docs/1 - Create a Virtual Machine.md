@@ -23,7 +23,7 @@ I assigned a public IP address and a DNS name to enable remote access and connec
 
 ## Export template
 
-'''
+```
 {
 "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
 "contentVersion": "1.0.0.0",
@@ -129,4 +129,4 @@ I assigned a public IP address and a DNS name to enable remote access and connec
 }
 ]
 }
-'''
+```
